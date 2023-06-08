@@ -33,7 +33,7 @@
     top:50%; 
     margin-left:-16px; 
     margin-top:-16px;
-    background-image: url(../images/preload-circle.png);
+    background-image: url(../images/preload-circle.webp);
     text-indent: -100px;
     overflow: hidden;
     -webkit-animation: playload 1.4s steps(18) infinite;
@@ -74,7 +74,7 @@
     top:50%; 
     margin-left:-16px; 
     margin-top:-16px;
-    background-image: url(preload-ios.png);
+    background-image: url(preload-ios.webp);
     text-indent: -100px;
     overflow: hidden;
     -webkit-animation: playload 1.4s steps(12) infinite;
@@ -117,7 +117,7 @@
     top:50%; 
     margin-left:-16px; 
     margin-top:-16px;
-    background-image: url(preload-dots.png);
+    background-image: url(preload-dots.webp);
     text-indent: -100px;
     overflow: hidden;
     -webkit-animation: playload 1.4s steps(24) infinite;
@@ -160,7 +160,7 @@
     top:50%; 
     margin-left:-16px; 
     margin-top:-16px;
-    background-image: url(preload-quads.png);
+    background-image: url(preload-quads.webp);
     text-indent: -100px;
     overflow: hidden;
     -webkit-animation: playload 1.4s steps(12) infinite;
@@ -200,7 +200,7 @@
     height: 40px;
     padding: 10px 20px 10px 0;
     display: block;
-    background: url(../images/close.gif) no-repeat #161617;
+    background: url(../images/close.webp) no-repeat #161617;
     background-position:10px center;
     color: #fff;
     text-indent: -100px;
@@ -222,12 +222,12 @@
 .vbox-prev{
     left: 0;
     border-width: 0 30px 0 10px;
-    background: url(../images/prev.gif) center center no-repeat;
+    background: url(../images/prev.webp) center center no-repeat;
 }
 .vbox-next{
     right: 0;
     border-width: 0 10px 0 30px;
-    background: url(../images/next.gif) center center no-repeat;
+    background: url(../images/next.webp) center center no-repeat;
 }
 
 .vbox-title{

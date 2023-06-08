@@ -32,7 +32,7 @@ jQuery(function ($) {
 
             var $this = $(this);
 
-            var bg_img = "images/section_custom_bg.jpg",
+            var bg_img = "images/section_custom_bg.webp",
                     bg_color = "#000000",
                     bg_opacity = "0.5",
                     bg_color_2 = "#000000",
@@ -42,11 +42,7 @@ jQuery(function ($) {
                     bg_size = "cover",
                     bg_overflow = "hidden",
                     bg_attachment = "inherit";
-
-
-
-            
-
+                    
             if ($this.is('[data-bg_img]')) {
                 bg_img = ', url("' + $this.data('bg_img') + '")';
             } else {
